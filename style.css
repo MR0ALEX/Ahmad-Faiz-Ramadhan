@@ -1,0 +1,68 @@
+      body  {
+            margin: 0;
+            font-family: 'Cooper Hewitt', sans-serif;
+            background-color: #FFE500;
+            color: #fff;
+        }
+
+        /* Gaya untuk navbar */
+       .navbar {
+            display: flex; /* Menggunakan Flexbox untuk menempatkan item secara horizontal [1] */
+            justify-content: space-between; /* Menempatkan logo di kiri dan tautan di kanan [1] */
+            align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+            padding: 20px 5%;
+        }
+
+       .logo {
+            display: flex;
+            align-items: center;
+        }
+
+       .logo-img {
+            height: 40px; /* Atur tinggi logo */
+            margin-right: 10px;
+            border-radius: 100px;
+        }
+
+       .brand-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+       .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+       .nav-link {
+           background-color: #ffffff; /* Warna oranye/kuning yang menonjol */
+            color: #000000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+       .nav-link:hover {
+            color: #23212170; /* Warna aksen kuning saat hover */
+        }
+
+       .btn-primary {
+        margin-left: 1rem;
+            background-color: #000; /* Warna oranye/kuning yang menonjol */
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+       .btn-primary:hover {
+            background-color: #2e2517; /* Sedikit lebih gelap saat hover */
+        }
