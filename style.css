@@ -1,11 +1,13 @@
-      body  {
-            margin: 0;
-            font-family: 'Cooper Hewitt', sans-serif;
-            background-color: #ffffff;
-            color: #fff;
-        }
-
-        /* Gaya untuk navbar */
+     
+        .navbar {
+  background-color: #FFE500;
+  padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+       }
+       
+       /* Gaya untuk navbar */
        .navbar {
             display: flex; /* Menggunakan Flexbox untuk menempatkan item secara horizontal [1] */
             justify-content: space-between; /* Menempatkan logo di kiri dan tautan di kanan [1] */
@@ -78,14 +80,15 @@
        }
 
        /* Style the header */
-.navbar {
-  background-color: #FFE500;
-  padding: 25px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-       }
+
   
+      body {
+            margin: 0;
+            font-family: 'Cooper Hewitt', sans-serif;
+            background-color: #ffffff;
+            color: #fff;
+        }
+
       /* Menu desktop */
       .menu {
         display: flex;
@@ -102,4 +105,30 @@
         color: #bbbbbb;
       }
 
+      section {
+            display: flex;
+            
+             text-align: center;
+  font-size: 35px;
+  color: white;
+      }
+
+      section {
+  background-color: #000000;
+  padding: 55px;
+ 
+  
+       }
+
+       img {
+            display: flex;
+            align-items: center;
+        }
+
+       img {
+            height: 400px; /* Atur tinggi logo */
+            margin-right: 10px;
+            margin-left: 90px;
+            border-radius: 10px;
+       }
     
