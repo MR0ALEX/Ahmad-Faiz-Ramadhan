@@ -105,30 +105,51 @@
         color: #bbbbbb;
       }
 
-      section {
-            display: flex;
+      .section {
+         display: flex;
             
              text-align: center;
   font-size: 35px;
   color: white;
       }
 
-      section {
+      .section {
   background-color: #000000;
   padding: 55px;
  
   
        }
 
-       img {
+       .section-img {
             display: flex;
             align-items: center;
         }
 
-       img {
+       .section-img {
             height: 400px; /* Atur tinggi logo */
             margin-right: 10px;
             margin-left: 90px;
             border-radius: 10px;
        }
     
+
+.menu-container {
+  display: flex;
+  justify-content: space-around; /* Menyebarkan item secara merata dengan ruang di antaranya */
+  align-items: center; /* Meratakan item secara vertikal */
+  gap: 2px; /* Memberi jarak antar setiap card */
+}
+
+
+
+.menu-card {
+  /* Properti untuk border-radius dan styling card */
+  background-color: #000;
+  border: 50px solid #000000;
+  border-radius: 20px;
+  width: 300px; /* Contoh lebar card */
+   margin-left: 1rem;
+   margin-top: 5rem;
+}
+
+       
