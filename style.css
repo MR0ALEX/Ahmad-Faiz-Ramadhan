@@ -105,35 +105,35 @@
         color: #bbbbbb;
       }
 
-      .section {
-         display: flex;
-            
-             text-align: center;
-  font-size: 35px;
+      section {
+        display: flex;
+        text-align: right;
+  font-size: 30px;
   color: white;
       }
 
-      .section {
+      section {
   background-color: #000000;
-  padding: 55px;
+  padding: 40px;
  
   
        }
 
-       .section-img {
+       .section-logo-image {
             display: flex;
-            align-items: center;
+            align-items: right;
         }
 
-       .section-img {
-            height: 400px; /* Atur tinggi logo */
+       .section-logo-image {
+        height: 350px;
             margin-right: 10px;
-            margin-left: 90px;
-            border-radius: 10px;
+            margin-left: 300px;
+            border-radius: 100px;
+            
        }
     
-       .base {
-            font-size: 24px;
+.base {
+ font-size: 24px;
             font-weight: bold;
             text-align: center;
             color: #000;
@@ -177,7 +177,7 @@
 
 .menu-card {
   /* Properti untuk border-radius dan styling card */
-  border: 1px solid #333;
+  border: 10px solid #000000;
   border-radius: 20px;
 }
 
@@ -193,7 +193,7 @@ border-top-right-radius: 10px;
 
 .menu-details p {
   text-align: center;
-  color: #000;
+  color: #000000;
 }
 
 .menu-details .btn {
@@ -202,9 +202,9 @@ border-top-right-radius: 10px;
   align-items: center;
 }
 .menu-details .btn button {
-  border: 1px #000;
+  border: 1px #000000;
   color: #ffffff;
-  background-color: #000;
+  background-color: #000000;
 padding: 10px 24px;
 border-radius: 10px;
 margin-bottom: 10px;
