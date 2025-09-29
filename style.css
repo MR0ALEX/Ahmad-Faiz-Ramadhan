@@ -215,7 +215,7 @@ margin-bottom: 10px;
             font-weight: bold;
             text-align: left;
             color: #000;
-            margin-left: 10px;
+            margin-left: 40px;
             padding-top: 100px;
         }
 
@@ -248,10 +248,10 @@ margin-bottom: 10px;
 
 .menu-container1 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
-  gap: 10px; /* Memberi jarak antar setiap card */
+  grid-template-columns: repeat(4, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
+  gap: 20px; /* Memberi jarak antar setiap card */
   padding: 20px;
-  padding-left: 90px;
+  padding-left: 140px;
 }
 
 .menu-image1 {
@@ -270,18 +270,16 @@ border-top-right-radius: 10px;
 font-weight: bold;
 text-align: left;
 color: #000;
-margin-right: 10px;
+margin-left: 40px;
 padding-top: 100px;
 }
 
 .menu-container2 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
-  gap: 20px; /* Memberi jarak antar setiap card */
+  grid-template-columns: repeat(4, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
+  gap: 10px; /* Memberi jarak antar setiap card */
   padding: 10px;
 }
-
-
 
 
 .menu-details2 H3 {
@@ -303,7 +301,83 @@ padding-top: 100px;
   border: 1px #000000;
   color: #ffffff;
   background-color: #000000;
-padding: 10px 24px;
+padding: 15px 70px;
 border-radius: 10px;
 margin-bottom: 10px;
+}
+
+.menu-container2e {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
+  gap: 50px; /* Memberi jarak antar setiap card */
+  padding: 10px;
+  padding-left: 130px;
+}
+
+.menu-image2e {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.menu-details2e H3 {
+  text-align: left;
+  color: #000;
+  padding-left: 30px;
+}
+
+.base3 {
+ font-size: 20px;
+font-weight: bold;
+text-align: left;
+color: #000;
+margin-left: 40px;
+padding-top: 50px;
+}
+
+
+
+.menu-container3 {
+  display: flex;
+  justify-content: space-around; /* Menyebarkan item secara merata dengan ruang di antaranya */
+  align-items: center; /* Meratakan item secara vertikal */
+  gap: 2px; /* Memberi jarak antar setiap card */
+}
+
+
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover3 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container3 {
+  padding: 2px 16px;
+}
+
+.card3 p {
+  color: #000;
+}
+
+.menu-container3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
+  gap: 20px; /* Memberi jarak antar setiap card */
+  padding: 20px;
+  padding-left: 140px;
+}
+
+.menu-image3 {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.menu-details3 H3 {
+  text-align: left;
+  color: #000;
+  padding-left: 30px;
 }
