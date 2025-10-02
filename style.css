@@ -108,7 +108,7 @@
       section {
         display: flex;
         text-align: right;
-  font-size: 30px;
+  font-size: 28px;
   color: white;
       }
 
@@ -125,7 +125,7 @@
         }
 
        .section-logo-image {
-        height: 350px;
+        height: 330px;
             margin-right: 10px;
             margin-left: 300px;
             border-radius: 100px;
