@@ -1,4 +1,4 @@
-     
+
         .navbar {
   background-color: #FFE500;
   padding: 25px;
@@ -119,17 +119,16 @@
   
        }
 
-       .section-logo-image {
+       .section-logo-image10 {
             display: flex;
             align-items: right;
         }
 
-       .section-logo-image {
+       .section-logo-image10 {
         height: 330px;
             margin-right: 10px;
             margin-left: 300px;
             border-radius: 100px;
-            
        }
     
 .base {
@@ -380,4 +379,14 @@ border-top-right-radius: 10px;
   text-align: left;
   color: #000;
   padding-left: 30px;
+}
+
+body {
+  display: grid;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
 }
