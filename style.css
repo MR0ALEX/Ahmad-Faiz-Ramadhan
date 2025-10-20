@@ -488,3 +488,165 @@ body{background: linear-gradient(135deg,  rgba(226,226,226,1) 0%,rgba(219,219,21
 .rcount{margin-left:6px;font-size:11px;color:#71717A}
 .stock{font-size:11px;font-weight:600;color:#22C55E}
 @media (max-width:400px){.card{width:90%}.title{font-size:16px}.img{height:180px}.bottom{flex-direction:column;align-items:flex-start;gap:10px}.price{margin-bottom:5px}.btn{width:100%;justify-content:center}}
+
+
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Styling untuk bagian 'Lebih Banyak' di atas footer */
+        .more-content {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .load-more-btn {
+            padding: 10px 40px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            background-color: #ffffff;
+            color: #333;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .load-more-btn:hover {
+            background-color: #eee;
+        }
+
+        /* Styling Utama Footer */
+        .footer-container {
+            background-color: #ffffff; /* Warna background bagian atas footer */
+            padding: 50px 10%; /* Padding horizontal dan vertikal */
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Untuk responsif */
+            border-bottom: 1px solid #eee; /* Garis pemisah di tengah */
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+        }
+
+        .footer-column {
+            flex-basis: 22%; /* Menyesuaikan lebar kolom */
+            min-width: 150px; /* Lebar minimum kolom saat di-resize */
+            margin-bottom: 20px;
+        }
+
+        .footer-column h4 {
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+            text-decoration: none;
+            color: #666; /* Warna teks tautan */
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .footer-column ul li a:hover {
+            color: #000;
+        }
+
+        /* Styling Bagian Kiri Bawah (Hak Cipta & Sosial) */
+        .footer-bottom-left h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .footer-bottom-left p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #333;
+            font-size: 20px;
+            margin-right: 15px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #000;
+        }
+        
+        /* Styling Bagian Bawah Kanan (Tautan Layanan) */
+        .footer-bottom-right {
+            text-align: right;
+        }
+
+        .service-links a {
+            text-decoration: none;
+            color: #666;
+            font-size: 14px;
+            margin-left: 25px; /* Jarak antar tautan */
+            transition: color 0.3s;
+        }
+
+        .service-links a:hover {
+            color: #000;
+        }
+        
+        /* Layout untuk Bagian Bawah Footer */
+        .footer-bottom-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end; /* Memastikan semuanya sejajar di bawah */
+            flex-wrap: wrap;
+        }
+
+        /* Bagian gelap di paling bawah */
+        .dark-strip {
+            background-color: #1a1a1a;
+            height: 50px;
+            width: 100%;
+        }
+
+        /* Media Queries untuk Responsif */
+        @media (max-width: 768px) {
+            .footer-content {
+                justify-content: flex-start;
+            }
+
+            .footer-column {
+                flex-basis: 45%; /* Dua kolom per baris */
+            }
+
+            .footer-bottom-wrapper {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .footer-bottom-right {
+                text-align: left;
+                margin-top: 20px;
+            }
+
+            .service-links a {
+                margin-left: 0;
+                margin-right: 20px;
+            }
+        }
