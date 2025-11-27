@@ -414,7 +414,6 @@ body {
     font-family: 'Poppins', sans-serif; /* Ganti dengan font yang sesuai jika diperlukan */
     margin: 0;
     background-color: #ffffff; /* Latar belakang putih */
-    padding: 40px 0;
 }
 
 .container {
@@ -519,11 +518,12 @@ body {
         /* Styling Utama Footer */
         .footer-container {
             background-color: #ffffff; /* Warna background bagian atas footer */
-            padding: 50px 10%; /* Padding horizontal dan vertikal */
+            padding: 30px 10%; /* Padding horizontal dan vertikal */
         }
 
         .footer-content {
-            display: flex;
+          grid-template-columns: repeat(6, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
+            display: grid;
             justify-content: space-between;
             flex-wrap: wrap; /* Untuk responsif */
             border-bottom: 1px solid #9c9c9c; /* Garis pemisah di tengah */
@@ -533,8 +533,8 @@ body {
 
         .footer-column {
           grid-template-columns: repeat(5, 1fr);
-            flex-basis: 22%; /* Menyesuaikan lebar kolom */
-            min-width: 150px; /* Lebar minimum kolom saat di-resize */
+            flex-basis: 11%; /* Menyesuaikan lebar kolom */
+            min-width: 100px; /* Lebar minimum kolom saat di-resize */
             margin-bottom: 20px;
         }
 
