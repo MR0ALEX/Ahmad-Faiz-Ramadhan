@@ -1,9 +1,10 @@
+/* Media Query untuk Responsif (misalnya, menjadi 2 kolom di layar kecil) */
 
         .navbar {
   background-color: #FFE500;
-  padding: 25px;
+  padding: 20px;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
        }
        
@@ -12,7 +13,7 @@
             display: flex; /* Menggunakan Flexbox untuk menempatkan item secara horizontal [1] */
             justify-content: space-between; /* Menempatkan logo di kiri dan tautan di kanan [1] */
             align-items: center; /* Menyelaraskan item secara vertikal di tengah */
-            padding: 20px 5%;
+            padding: 20px;
         }
 
        .logo {
@@ -23,7 +24,7 @@
        .logo-img {
             height: 100px; /* Atur tinggi logo */
             margin-right: 10px;
-            margin-left: 90px;
+            margin-left: 40px;
             border-radius: 100px;
         }
 
@@ -38,10 +39,11 @@
         }
 
        .nav-link {
+        margin-left: 20px;
            background-color: #ffffff; /* Warna oranye/kuning yang menonjol */
             color: #000000;
             border: none;
-            padding: 15px 35px;
+            padding: 10px 25px;
             border-radius: 10px;
             cursor: pointer;
             font-size: 16px;
@@ -54,12 +56,11 @@
         }
 
        .btn-primary {
-        margin-left: 1rem;
-        margin-right: 90px;
+        margin-left: 10px;
             background-color: #000; /* Warna oranye/kuning yang menonjol */
             color: #ffffff;
             border: none;
-            padding: 15px 35px;
+            padding: 10px 25px;
             border-radius: 10px;
             cursor: pointer;
             font-size: 16px;
@@ -83,7 +84,6 @@
 
   
       body {
-            margin: 0;
             font-family: 'Cooper Hewitt', sans-serif;
             background-color: #ffffff;
             color: #fff;
@@ -137,12 +137,13 @@
             background-color: #fefefe; /* Warna oranye/kuning yang menonjol */
             color: #000000;
             border: none;
-            padding: 15px 35px;
+            padding: 10px 15px;
             border-radius: 10px;
             cursor: pointer;
             font-size: 16px;
             font-weight: bold;
             transition: background-color 0.3s ease;
+            display: center;
         }
 
        .cta-button:hover {
@@ -233,7 +234,7 @@ margin-bottom: 10px;
             text-align: left;
             color: #000;
             margin-left: 40px;
-            padding-top: 100px;
+            padding-top: 40px;
         }
 
 .menu-container1 {
@@ -288,7 +289,7 @@ font-weight: bold;
 text-align: left;
 color: #000;
 margin-left: 40px;
-padding-top: 100px;
+padding-top: 30px;
 }
 
 .menu-container2 {
@@ -481,23 +482,14 @@ body {
     margin-top: 5px;
 }
 
-/* Media Query untuk Responsif (misalnya, menjadi 2 kolom di layar kecil) */
-@media (max-width: 768px) {
-    .product-card {
-        flex: 0 0 calc(50% - 10px); /* 2 kolom di layar tablet */
-    }
-}
 
-@media (max-width: 480px) {
-    .product-card {
-        flex: 0 0 100%; /* 1 kolom di layar ponsel */
-    }
-}
+
+
   
  body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin-top: 50;
+            padding-top: 50;
             background-color: #f4f4f4;
         }
 
@@ -506,6 +498,7 @@ body {
             padding: 40px 20px;
             text-align: center;
             background-color: #ffffff;
+            margin-top: 20px;
         }
 
         .load-more-btn {
@@ -533,7 +526,7 @@ body {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap; /* Untuk responsif */
-            border-bottom: 1px solid #eee; /* Garis pemisah di tengah */
+            border-bottom: 1px solid #9c9c9c; /* Garis pemisah di tengah */
             padding-bottom: 30px;
             margin-bottom: 20px;
         }
@@ -630,11 +623,7 @@ body {
             width: 100%;
         }
 
-        /* Media Queries untuk Responsif */
-        @media (max-width: 768px) {
-            .footer-content {
-                justify-content: flex-start;
-            }
+       
 
             .footer-column {
                 flex-basis: 45%; /* Dua kolom per baris */
@@ -654,4 +643,9 @@ body {
                 margin-left: 0;
                 margin-right: 20px;
             }
-        }
+         /* Media Queries untuk Responsif */
+        @media (max-width: 375px) {
+            .footer-content {
+                justify-content: flex;
+            }
+          }
